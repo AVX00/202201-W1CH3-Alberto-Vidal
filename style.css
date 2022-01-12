@@ -20,10 +20,33 @@ body {
 .header {
   width: 100vw;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  flex: 0;
+  display: inline-flex;
+  justify-content: space-between;
 }
 
 .header::before {
-  content: url("images/logo2.png");
+  background-image: url("images/logo2.png");
+  background-size: 30px;
+  height: 30px;
+  width: 30px;
+  content: "";
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.header::after {
+  background-image: url("images/burger.png");
+  background-size: 30px;
+  height: 30px;
+  width: 30px;
+  content: "";
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.header__link--hidden {
+  display: none;
 }
 
 .header__button {
