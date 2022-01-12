@@ -11,6 +11,7 @@
   text-decoration: none;
   color: var(--font-color);
   font-family: "Nunito", sans-serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -93,6 +94,11 @@ body {
 }
 
 .card {
+  margin-top: 1.3em;
+}
+
+.card:first-of-type {
+  margin-top: 1.4em;
 }
 
 .card__images {
