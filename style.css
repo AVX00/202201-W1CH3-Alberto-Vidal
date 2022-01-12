@@ -19,7 +19,8 @@ body {
 
 .header {
   width: 100vw;
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,
+    rgba(107, 106, 106, 0.24) 0px 1px 2px;
   flex: 0;
   display: inline-flex;
   justify-content: space-between;
@@ -57,16 +58,34 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.content-header {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-header__bold-text {
+}
+
+.content-header__button {
+}
+
+.content-header__hl-text {
+}
 
 .card {
 }
+
 .card__images {
   width: 60vw;
   border-radius: 4%;
 }
+
 .card__text {
 }
+
 .content-header {
 }
+
 .content-header__button {
 }
