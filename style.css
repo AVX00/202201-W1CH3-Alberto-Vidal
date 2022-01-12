@@ -102,6 +102,8 @@ body {
 }
 
 .card::after {
+  margin: 0;
+  padding: 0;
   content: "";
   position: absolute;
   top: 0;
@@ -110,6 +112,7 @@ body {
   width: 100%;
   z-index: 999;
   display: block;
+  overflow: hidden;
   background: radial-gradient(
     circle,
     rgba(0, 0, 0, 0) 0%,
