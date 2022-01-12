@@ -2,23 +2,38 @@
   --hihgligt-color: #ed6436;
   --font-color: #181818;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   min-height: 100vh;
   margin: 0;
   display: flex;
+  flex-direction: column;
+  background-color: #fff;
 }
 
 .header {
   width: 100vw;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
 .header__button {
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .card {
 }
 .card__images {
+  width: 60vw;
+  border-radius: 4%;
 }
 .card__text {
 }
