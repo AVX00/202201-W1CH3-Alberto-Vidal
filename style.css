@@ -1,0 +1,28 @@
+:root {
+  --hihgligt-color: #ed6436;
+  --font-color: #181818;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+}
+
+.header {
+  width: 100vw;
+}
+
+.header__button {
+}
+
+.card {
+}
+.card__images {
+}
+.card__text {
+}
+.content-header {
+}
+.content-header__button {
+}
