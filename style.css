@@ -111,13 +111,12 @@ body {
   bottom: 0.37em;
   width: 100%;
   z-index: 999;
-  background-color: #a52f2f85;
-  /* background: radial-gradient(
+  background: radial-gradient(
     circle,
     rgba(0, 0, 0, 0) 0%,
     rgba(0, 0, 0, 0.2) 20%,
     rgba(0, 0, 0, 0.3) 100%
-  ); */
+  );
   border-radius: 4%;
 }
 
